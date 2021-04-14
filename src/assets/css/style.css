@@ -1,0 +1,33 @@
+/* General Section Stylings */
+body{ margin:0px; font-family:'Montserrat', sans-serif; }
+.container{ max-width:1300px; padding:0px 30px; margin:auto; }
+
+/* Navigation Section Stylings */
+#nav{ background-color:#F8F8F8; padding:45px 0px; width:100%; }
+#nav .nav-wrapper{ display:flex; flex-direction:row; justify-content:center; vertical-align:middle; justify-items:center; flex-wrap:wrap; }
+#nav .nav-wrapper .nav-item{ margin:10px 15px; }
+#nav .nav-wrapper .nav-item a{ text-decoration:none; color:#7B7B7B; text-transform:uppercase; font-weight:500; }
+
+/* Background SVGs Section Stylings */ 
+#background-svgs{ background-color:#F8F8F8; }
+#background-svgs .svg-wrapper1{ position:absolute; left:-28%; top:-8%; height:157px; width:40%; transform:rotate(-94deg); }
+#background-svgs .svg-wrapper2{ position:absolute; left:9%; top:14%; height:157px; width:5%; transform:rotate(-54deg); }
+#background-svgs .svg-wrapper3{     position: absolute;
+    right: -27%;
+    top: 8%;
+    height: 152px;
+    width: 46%;
+    transform: rotate(
+58deg
+); }
+#background-svgs .svg-wrapper4{ position: absolute;
+    right: 18%;
+    top: 8%;
+    height: 86px;
+    width: 4%;
+    transform: rotate(
+91deg
+); }
+
+/* Header Section Stylings */
+#header{ background-color:#F8F8F8; height:100vh; padding:80px 0px; }
