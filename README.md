@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Meta
+### Socials
 Twitter: https://twitter.com/tomjaycocks
 
 Instagram: https://www.instagram.com/tomjaycocks/
