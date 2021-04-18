@@ -9,6 +9,7 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import './assets/css/style.css';
+import './assets/js/scripts.js';
 
 
   export default {
