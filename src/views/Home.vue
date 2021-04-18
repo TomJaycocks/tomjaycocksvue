@@ -82,10 +82,9 @@
         </svg>
       </div>
       <div class="svg-wrapper3">
-
-      </div>
-      <div class="svg-wrapper4">
-
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+          <path id="blob" d="M358.5,289Q372,328,338,348Q304,368,261.5,416Q219,464,163,439.5Q107,415,132,346Q157,277,148.5,247.5Q140,218,121,149Q102,80,162.5,72Q223,64,266.5,91.5Q310,119,371.5,125.5Q433,132,389,191Q345,250,358.5,289Z" fill="#efefef"></path>
+        </svg>
       </div>
     </section>
   

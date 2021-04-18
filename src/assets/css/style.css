@@ -34,7 +34,7 @@ button a{ color:#fff; text-decoration:none; }
 #header .content-wrapper p{ margin:35px 0px 55px; }
 
 /* Services Section Stylings */
-#services{ background-color:#F8F8F8; padding:80px 0px;  }
+#services{ background-color:#F8F8F8; padding:80px 0px 210px; overflow:hidden; position:relative ;}
 #services button{ padding:5px 30px; border-radius:15px; }
 #services .content-wrapper{ flex-wrap:wrap; align-items:center; display:flex; justify-content:center; height:100%; }
 #services .content-wrapper .tile h3{ margin-top:0px; }
@@ -43,13 +43,13 @@ button a{ color:#fff; text-decoration:none; }
 #services .content-wrapper .tile:nth-of-type(3n + 3){ bottom:-120px; position:relative; }
 #services .svg-wrapper1 {
     position: absolute;
-    left: -26%;
-    bottom: 8%;
+    left: -24%;
+    bottom: 27%;
     height: 157px;
     width: 32%;
-    transform: rotate(
+    transform: rotate( 
 -67deg
-);
+ );
     transition: all .2s linear;
     -o-transition: all .2s linear;
     -moz-transition: all .2s linear;
@@ -59,12 +59,29 @@ button a{ color:#fff; text-decoration:none; }
 }
 #services .svg-wrapper2 {
     position: absolute;
-    right: 11%;
-    bottom: 12%;
+    right: 7%;
+    top: 6%;
     height: 157px;
     width: 26%;
     transform: rotate( 
 -25deg
+ );
+    transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -webkit-transform-style: preserve-3d;
+    z-index: 1;
+}
+
+#services .svg-wrapper3 {
+    position: absolute;
+    left: 47%;
+    bottom: 19%;
+    height: 157px;
+    width: 31%;
+    transform: rotate( 
+61deg
  );
     transition: all .2s linear;
     -o-transition: all .2s linear;
