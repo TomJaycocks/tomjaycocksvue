@@ -1,4 +1,4 @@
-# tomjaycocks
+# Tom Jaycocks 2021 Website
 
 ## Project setup
 ```
